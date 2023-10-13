@@ -1,0 +1,28 @@
+.table {
+  width: 1920px;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tableContainer {
+    padding-left: 1rem ;  
+    padding-right: 1rem ; 
+  }
+  
+
+.thall th {
+  color: #ffffff;
+  background-color: #b5cc22;
+  text-align: center;
+}
+.quantity {
+  font-weight: bold;
+  color: #b5cc22 !important;
+}
+.tbody td {
+  text-align: center;
+}

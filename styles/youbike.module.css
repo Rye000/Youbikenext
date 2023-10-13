@@ -1,0 +1,128 @@
+.hr{
+  margin-top: -2rem;
+}
+.h4 {
+  color: #b5cc22;
+  font-weight: bold;
+  margin-top: -3rem;
+}
+.bike {
+  margin: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin-right: 40rem;
+}
+
+.list p {
+  flex: 10 calc(35% - 10px);
+}
+
+.list input[type="checkbox"]:checked {
+  accent-color: #b5cc22; /* 修改勾選時的背景顏色 */
+}
+.all p {
+  
+  margin-top: 0.5rem;
+}
+
+.all input[type="checkbox"]:checked {
+  accent-color: #b5cc22; /* 修改勾選時的背景顏色 */
+}
+
+.imageContainer {
+  width: 100%;
+}
+
+.imageContainer img {
+  margin-left: -15rem;
+  width: 100%;
+  height: auto;
+}
+.select {
+  max-width: 210px;
+  margin-left: 2rem;
+}
+.autocompleteDropdown {
+  position: absolute;
+  background-color: #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  max-width: 210px;
+  z-index: 9999;
+  list-style: none;
+  margin-left: 8.5rem;
+}
+
+.autocompleteDropdown li {
+  padding: 8px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.autocompleteDropdown li:hover {
+  background-color: #f5f5f5;
+}
+.input {
+  display: flex;
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  
+}
+@media (max-width:1340px){
+  .list{
+    width: 100%;
+    margin:0;
+}
+
+.imageContainer img {
+  margin-left: -1rem;
+  
+}
+  }
+@media (max-width:991px) {
+    .hr{
+        margin-top: -3rem;
+    }
+    .bike{
+        margin-left: 2rem;
+    }
+    .input{
+        display: block;
+    }
+    .select{
+        max-width:100%;
+        margin-top: 0.5rem;
+        margin-left:0;
+    }
+    .imageContainer img{
+        display: none;
+    }
+    .list{
+        width: 100%;
+        margin:0;
+    }
+    
+    .list p{
+       font-size: 22px;
+    }
+    .all p{
+       font-size: 22px;
+
+    }
+    .container{
+        display: block;
+    }
+   
+}
